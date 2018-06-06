@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import { Button } from "reactstrap";
 import Header from "./Header";
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <React.Fragment>
