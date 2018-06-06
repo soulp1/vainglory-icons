@@ -1,0 +1,98 @@
+
+#dynamic-content {
+	font-size: 0.8rem;
+}
+
+#blue-abilities table, 
+#red-abilities table {
+	font-size: 0.8rem;
+}
+
+#dynamic-content .table {
+	font-size: 0.65rem;
+}
+#blue-abilities table, 
+#red-abilities table {
+	font-size: 0.65rem !important
+}
+
+.mobile-shrink-text {
+	font-size: 0.8rem;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	#dynamic-content,
+	#blue-abilities, 
+	#red-abilities {
+		font-size: 0.8rem;
+	}
+	#dynamic-content .table {
+		font-size: 0.65rem;
+	}
+	#blue-abilities table, 
+	#red-abilities table {
+		font-size: 0.65rem !important
+	}
+	.mobile-shrink-text {
+		font-size: 0.9rem;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	#dynamic-content,
+	#blue-abilities, 
+	#red-abilities {
+		font-size: 0.8rem;
+	}
+	#dynamic-content .table {
+		font-size: 0.65rem;
+	}
+	#blue-abilities table, 
+	#red-abilities table {
+		font-size: 0.65rem !important
+	}
+	.mobile-shrink-text {
+		font-size: 0.95rem;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	#dynamic-content,
+	#blue-abilities, 
+	#red-abilities {
+		font-size: 0.9rem;
+	}
+	#dynamic-content .table {
+		font-size: 0.85rem;
+	}
+	#blue-abilities table, 
+	#red-abilities table {
+		font-size: 0.65rem !important
+	}
+	.mobile-shrink-text {
+		font-size: 1rem;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	#dynamic-content,
+	#blue-abilities, 
+	#red-abilities {
+		font-size: 0.9rem;
+	}
+	#dynamic-content .table {
+		font-size: 0.85rem;
+	}
+	#blue-abilities table, 
+	#red-abilities table {
+		font-size: 0.65rem !important;
+	}
+	.mobile-shrink-text {
+		font-size: 1.1rem;
+	}
+}
