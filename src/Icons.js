@@ -2,6 +2,7 @@ import React from "react";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { monokaiSublime } from "react-syntax-highlighter/styles/hljs";
+import CopyButton from "./common/CopyButton";
 
 var icons = [
   {
@@ -260,9 +261,22 @@ const iconsMarkup = icons.map(obj => {
       >
         {obj.name}
       </div>
-      <SyntaxHighlighter language="html" style={monokaiSublime}>
-        {codeString}
-      </SyntaxHighlighter>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center"
+        }}
+      >
+        <SyntaxHighlighter
+          language="html"
+          style={monokaiSublime}
+          customStyle={{ margin: 0, flex: 1, marginRight: "5px" }}
+        >
+          {codeString}
+        </SyntaxHighlighter>
+
+        <CopyButton copy={codeString} />
+      </div>
     </section>
   );
 });

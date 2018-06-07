@@ -1,0 +1,22 @@
+.copyFloating {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  transform: translate(0, -30px);
+  animation-name: FadeInUp;
+  animation-duration: 1s;
+  opacity: 0;
+}
+
+@keyframes FadeInUp {
+  from {
+    transform: translate(0, 0px);
+    opacity: 1;
+  }
+  to {
+    transform: translate(0, -30px);
+    opacity: 0;
+  }
+}
