@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Button } from "reactstrap";
 
 export default class Headline extends React.Component {
@@ -10,7 +10,7 @@ export default class Headline extends React.Component {
         <Button color="warning" size="lg">
           HOW TO USE
         </Button>
-	  </div>
-    )
+      </div>
+    );
   }
-};
+}
