@@ -249,7 +249,7 @@ var icons = [
 
 const iconsMarkup = icons.map(obj => {
   let iconString = `h1 d-block mb-0 example-icon ${obj.icon}`;
-  const codeString = `<i class=${obj.icon}></i>`;
+  const codeString = `<i class="${obj.icon}"></i>`;
 
   return (
     <section key={obj.icon} className="col-md-6 col-lg-4 mb-5">
