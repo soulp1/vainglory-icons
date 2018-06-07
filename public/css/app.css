@@ -1,250 +1,234 @@
-
 body {
-	font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, 
-.h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 }
 
 .drop-shadow-1 {
-	-webkit-box-shadow: 0px 3px 6px 2px rgba(42, 41, 40, 0.3);
-	-moz-box-shadow: 0px 3px 6px 2px rgba(42, 41, 40, 0.3);
-	box-shadow: 0px 3px 6px 2px rgba(42, 41, 40, 0.3);
+  -webkit-box-shadow: 0px 3px 6px 2px rgba(42, 41, 40, 0.3);
+  -moz-box-shadow: 0px 3px 6px 2px rgba(42, 41, 40, 0.3);
+  box-shadow: 0px 3px 6px 2px rgba(42, 41, 40, 0.3);
 }
 
 .drop-shadow-2 {
--webkit-box-shadow: 0px 6px 12px 3px rgba(42, 41, 40, 0.25);
--moz-box-shadow: 0px 6px 12px 3px rgba(42, 41, 40, 0.25);
-box-shadow: 0px 6px 12px 3px rgba(42, 41, 40, 0.25);
+  -webkit-box-shadow: 0px 6px 12px 3px rgba(42, 41, 40, 0.25);
+  -moz-box-shadow: 0px 6px 12px 3px rgba(42, 41, 40, 0.25);
+  box-shadow: 0px 6px 12px 3px rgba(42, 41, 40, 0.25);
 }
 
 .drop-shadow-3 {
-	-webkit-box-shadow: 0px 8px 16px 4px rgba(42, 41, 40, 0.2);
-	-moz-box-shadow: 0px 8px 16px 4px rgba(42, 41, 40, 0.2);
-	box-shadow: 0px 8px 16px 4px rgba(42, 41, 40, 0.2);
+  -webkit-box-shadow: 0px 8px 16px 4px rgba(42, 41, 40, 0.2);
+  -moz-box-shadow: 0px 8px 16px 4px rgba(42, 41, 40, 0.2);
+  box-shadow: 0px 8px 16px 4px rgba(42, 41, 40, 0.2);
 }
 
-
 img.hero-thumb {
-	width: 75px;
-	height: 75px;
+  width: 75px;
+  height: 75px;
 }
 
 img.modal-title-image,
 img.dropdown-thumb {
-	width: 50px;
-	height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 img.ability-heading-img {
-	width: 35px;
-	height: 35px;
+  width: 35px;
+  height: 35px;
 }
 
-
-table.table td, table.table th {
-	vertical-align: middle;
+table.table td,
+table.table th {
+  vertical-align: middle;
 }
 
 .header-and-footer {
-	background-color: #222222;
-	color: #f8f8f8;
+  background-color: #222222;
+  color: #f8f8f8;
 }
 
 .blue-side {
-	background-color: #00517a;
-	background-color: rgba(0, 81, 122, 0.5);
+  background-color: #00517a;
+  background-color: rgba(0, 81, 122, 0.5);
 }
 
 .red-side {
-	background-color: #96000f;
-	background-color: rgba(150, 0, 15, 0.5);
+  background-color: #96000f;
+  background-color: rgba(150, 0, 15, 0.5);
 }
 
 .quarter-opacity {
-	opacity: 0.25;
+  opacity: 0.25;
 }
 
 .half-opacity {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
 .three-fourths-opacity {
-	opacity: 0.75;
+  opacity: 0.75;
 }
 
 .opaque {
-	opacity: 1;
+  opacity: 1;
 }
-
 
 .clickable-safari-hack,
 .clickable-safari-hack:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-a.js-hero-name, 
+a.js-hero-name,
 a.js-hero-name:hover {
-	color: #f8f8f8;
-	text-decoration: none;
-	cursor: pointer;
-	outline: none;
+  color: #f8f8f8;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
 }
 
 .modal.show {
-    padding-right: 0px !important;
+  padding-right: 0px !important;
 }
 
 .bg-dark .close {
-    color: #f8f8f8;
-    text-shadow: 0 1px 0 #000;
+  color: #f8f8f8;
+  text-shadow: 0 1px 0 #000;
 }
 
-.bg-dark .close:focus, 
+.bg-dark .close:focus,
 .bg-dark .close:hover {
-    color: #999;
+  color: #999;
 }
 
-.dropdown-item:focus, 
+.dropdown-item:focus,
 .dropdown-item:hover {
-    background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.35);
 }
-
-
-
-
-
-
-
-
-
-
 
 .item-picker {
-	overflow-y: auto;
-	max-height: 150px;
+  overflow-y: auto;
+  max-height: 150px;
 }
 
 .item-picker-img {
-	width: 30px;
-	height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .item-slot-wrapper {
-	border-top-left-radius: .75rem!important;
-    border-top-right-radius: .75rem!important;
+  border-top-left-radius: 0.75rem !important;
+  border-top-right-radius: 0.75rem !important;
 }
 
-.item-slot-blue:hover, 
-.item-slot-red:hover, 
+.item-slot-blue:hover,
+.item-slot-red:hover,
 .item-block:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .item-block:hover {
-	background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.35);
 }
 
 .build-stats-table {
-	font-size: 0.7rem;
+  font-size: 0.7rem;
 }
 
 .compare-thumb {
-	width: 70px;
-	height: 70px;
+  width: 70px;
+  height: 70px;
 }
 
-
-
-
-
-
-
-
-
-
-
-.js-hero-level-down:hover, 
+.js-hero-level-down:hover,
 .js-hero-level-up:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
-
-
-
-
-.isotope-item .card, 
+.isotope-item .card,
 .isotope-item .card .list-group .list-group-item {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 .card .hero-card-image {
-	width: 70px;
-	height: 70px;
+  width: 70px;
+  height: 70px;
 }
 
 .card .hero-item-image {
-	width: 80px;
-	height: 80px;
+  width: 80px;
+  height: 80px;
 }
 
 .card .card-hero-descrip {
-	font-size: 0.80rem;
-	height: 50px;
-	vertical-align: middle;
-	overflow: hidden;
+  font-size: 0.8rem;
+  height: 50px;
+  vertical-align: middle;
+  overflow: hidden;
 }
 
-
-
 .card .card-body-items {
-	min-height: 200px;
+  min-height: 200px;
 }
 
 .card .card-body-traits {
-	min-height: 575px;
+  min-height: 575px;
 }
 
 .card .card-build-reference {
-	min-height: 200px;
+  min-height: 200px;
 }
 
-
 .super-sized-text {
-	font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .example-icon {
-	font-size: 4rem;
+  font-size: 4rem;
 }
 
-
 .recommended-build {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .recommended-build:hover,
 .recommended-build:focus,
 .recommended-build:active {
-	text-decoration: none;
-	opacity: 1;
-	cursor: pointer;
-	-webkit-transition: opacity 0.3s ease;
-	-moz-transition: opacity 0.3s ease;
-	-o-transition: opacity 0.3s ease;
-	transition: opacity 0.3s ease;
+  text-decoration: none;
+  opacity: 1;
+  cursor: pointer;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
-
-
-
-
-
-
 .hero-dropdown {
-	max-height: 200px;
-	overflow-y: auto;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.vg-icon {
+  font-size: 1.25rem;
+  text-align: center;
+  position: relative;
+  top: 0.25rem;
+}
+
+.vg-icon-font-to-copy {
+  font-family: "vainglory-icons-font" !important;
 }

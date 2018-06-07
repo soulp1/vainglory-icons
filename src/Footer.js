@@ -153,6 +153,38 @@ export default class Footer extends React.Component {
             </ul>
           </div>
         </div>
+        <div className="row justify-content-center">
+          <div className="col pb-3">
+            <ul className="list-inline mb-1">
+              <li className="list-inline-item">
+                <a
+                  href="https://twitter.com/smasharific"
+                  className="text-light"
+                  target="_blank"
+                >
+                  <i className="fab fa-twitter fa-2x" />
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a
+                  href="https://github.com/soulp1/vainglory-icons"
+                  className="text-light"
+                  target="_blank"
+                >
+                  <i className="fab fa-github fa-2x" />
+                </a>
+              </li>
+            </ul>
+            <div className="pb-2">
+              Made with <i className="fas fa-heart text-danger" /> by
+              PierreAndreis & SirSmashalot
+            </div>
+            <small class="d-block text-muted">
+              This content is not affiliated, endorsed, sponsored or approved by
+              Super Evil Megacorp.
+            </small>
+          </div>
+        </div>
       </footer>
     );
   }

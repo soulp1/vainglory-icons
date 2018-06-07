@@ -245,6 +245,146 @@ var icons = [
   {
     icon: "vg-rank-10",
     name: "Rank 10"
+  },
+  {
+    icon: "vg-pickaxe",
+    name: "Pickaxe"
+  },
+  {
+    icon: "vg-pickaxe-minion",
+    name: "Pickaxe + Minion"
+  },
+  {
+    icon: "vg-pickaxe-coin",
+    name: "Pickaxe + Coin"
+  },
+  {
+    icon: "vg-warning",
+    name: "Warning"
+  },
+  {
+    icon: "vg-hand",
+    name: "Hand"
+  },
+  {
+    icon: "vg-calendar-check",
+    name: "Calendar Check"
+  },
+  {
+    icon: "vg-kills",
+    name: "Kills"
+  },
+  {
+    icon: "vg-swords",
+    name: "Swords"
+  },
+  {
+    icon: "vg-swords-alt",
+    name: "Swords Alt"
+  },
+  {
+    icon: "vg-target-scope",
+    name: "Target Scope"
+  },
+  {
+    icon: "vg-stopwatch",
+    name: "Stopwatch"
+  },
+  {
+    icon: "vg-season-dial",
+    name: "Season Dial"
+  },
+  {
+    icon: "vg-timer",
+    name: "Timer"
+  },
+  {
+    icon: "vg-quill",
+    name: "Quill"
+  },
+  {
+    icon: "vg-lightbulb",
+    name: "Lightbulb"
+  },
+  {
+    icon: "vg-academy",
+    name: "Academy"
+  },
+  {
+    icon: "vg-banner-1",
+    name: "Banner 1"
+  },
+  {
+    icon: "vg-banner-2",
+    name: "Banner 2"
+  },
+  {
+    icon: "vg-profile",
+    name: "Profile"
+  },
+  {
+    icon: "vg-news",
+    name: "News"
+  },
+  {
+    icon: "vg-brand-mark",
+    name: "Brand Mark"
+  },
+  {
+    icon: "vg-brand-logo",
+    name: "Brand Logo"
+  },
+  {
+    icon: "vg-recall",
+    name: "Recall"
+  },
+  {
+    icon: "vg-leaderboard",
+    name: "Leaderboard"
+  },
+  {
+    icon: "vg-armory",
+    name: "Armory"
+  },
+  {
+    icon: "vg-trophy",
+    name: "Trophy"
+  },
+  {
+    icon: "vg-shop-1",
+    name: "Shop 1"
+  },
+  {
+    icon: "vg-shop-2",
+    name: "Shop 2"
+  },
+  {
+    icon: "vg-team-1",
+    name: "Team 1"
+  },
+  {
+    icon: "vg-team-2",
+    name: "Team 2"
+  },
+  {
+    icon: "vg-guild-officer",
+    name: "Guild Officer"
+  },
+  {
+    icon: "vg-ok",
+    name: "OK"
+  },
+  {
+    icon: "vg-gg",
+    name: "GG"
+  },
+  {
+    icon: "vg-scroll-attention",
+    name: "Scroll Attention"
+  },
+  {
+    icon: "vg-scroll",
+    name: "Scroll"
   }
 ];
 
@@ -253,7 +393,7 @@ const iconsMarkup = icons.map(obj => {
   const codeString = `<i class="${obj.icon}"></i>`;
 
   return (
-    <section key={obj.icon} className="col-md-6 col-lg-4 mb-5">
+    <section key={obj.icon} className="col-sm-11 col-md-9 col-lg-6 mb-5">
       <div className={iconString} />
       <div
         className="small mb-2 text-light-gray"
