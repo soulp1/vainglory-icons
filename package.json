@@ -1,11 +1,12 @@
 {
-  "name": "vgpro-icons",
-  "version": "0.1.0",
+  "name": "vainglory-icons",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-scripts": "1.1.4",
+    "react-syntax-highlighter": "^7.0.4",
     "reactstrap": "^6.1.0"
   },
   "scripts": {
